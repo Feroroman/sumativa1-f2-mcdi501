@@ -18,6 +18,7 @@ Base de Titulados de Educación Superior 2025 (Mineduc, SIES), filtrada a **preg
 El archivo crudo no se incluye por su tamaño: descargarlo desde https://datosabiertos.mineduc.cl y guardarlo en `data/raw/`.
 
 ## Estructura
+```
 data/raw/                 archivo crudo (no versionado), compartido por S1 y S2
 S1/notebooks/             Sumativa1_F2_Titulados.ipynb (Sumativa 1, Fase 2)
 S1/informe/               Informe_Sumativa1_F2.pdf y figuras/
@@ -25,7 +26,7 @@ S2/notebooks/             notebook de la Sumativa 2, Fase 3
 S2/informe/               informe de la Sumativa 2 y figuras/
 S2/resultados/            resultados validados (insumo para la Sumativa 3)
 requirements.txt          librerías y versiones
-
+```
 ## Cómo reproducir
 ```
 python -m venv .venv
