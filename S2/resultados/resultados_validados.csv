@@ -1,0 +1,21 @@
+﻿categoría,parámetro,estimado,IC95 inf,IC95 sup,método IC,EE,método EE,p,veredicto,nota
+Parámetros,media atraso,3.3980167344846017,3.3674928505984276,3.4289767201989347,bootstrap BCa (B = 10.000),0.015754567114808826,bootstrap,,robusta (cautela en magnitud),"Baja a 2,5–2,8 sin atípicos o con media recortada"
+Parámetros,media edad,27.965638870645865,27.926967354487594,28.00532493319619,bootstrap BCa (B = 10.000),0.020020503399900785,bootstrap,,robusta,"IC t, percentil y BCa coinciden"
+Parámetros,dif. atraso H−M,1.068032669497522,1.0059153976782607,1.1327365518654962,bootstrap BCa (B = 10.000),0.11144436728454242,jackknife por institución,9.999000099990002e-05,requiere cautela,"Signo robusto; magnitud: mitad efecto de área, sensible a atípicos; p por test de permutación (B = 10.000)"
+Parámetros,mediana atraso,2.0,2.0,2.0,bootstrap percentil (B = 10.000),0.0,bootstrap,,robusta,Igual a 2 en hombres y mujeres y en todos los escenarios
+Parámetros,dif. atraso H−M ajustada por área,0.5524611165110965,0.49023849716942886,0.6163663107198486,bootstrap percentil (B = 10.000),0.032311895193342634,bootstrap,,requiere cautela,Promedio ponderado de la brecha dentro de 10 áreas
+Parámetros,brecha % atraso alto Vesp − Diur (pp),9.062693312647099,8.004552583371035,10.145578119794441,bootstrap percentil (B = 10.000),0.550882053881991,bootstrap,9.999000099990002e-05,robusta,"Crece con el umbral: 5,2 pp (> 3) a 12,1 pp (> 6); p por test de permutación (B = 10.000)"
+Correlaciones,atraso_semestres – edad_titulacion,0.4660915093718542,0.46019820448037474,0.4719355507528004,bootstrap percentil (B = 10.000),0.003027216483911146,bootstrap,,robusta,Fuerza moderada
+Correlaciones,semestres_reales – edad_titulacion,0.46093921507415486,0.45406961852695954,0.4678842998670308,bootstrap percentil (B = 10.000),0.0034986340108558583,bootstrap,,robusta,Fuerza moderada
+Correlaciones,dur_total_carr – edad_titulacion,-0.18899489337560285,-0.1955422349837927,-0.18266126698512586,bootstrap percentil (B = 10.000),0.0032941688471909694,bootstrap,,robusta,Fuerza débil
+Correlaciones,dur_total_carr – atraso_semestres,0.008943088666621291,0.002172503414105049,0.01563377801932541,bootstrap percentil (B = 10.000),0.0034415030917675916,bootstrap,,robusta,Fuerza despreciable
+Modelo Monte Carlo,BN hombres: r,0.6264161540150092,,,,,,,,Método de momentos con media y DE de la S1
+Modelo Monte Carlo,BN hombres: p,0.13542914478543944,,,,,,,,Método de momentos con media y DE de la S1
+Modelo Monte Carlo,BN mujeres: r,0.6186099704324869,,,,,,,,Método de momentos con media y DE de la S1
+Modelo Monte Carlo,BN mujeres: p,0.17427547690742906,,,,,,,,Método de momentos con media y DE de la S1
+Modelo Monte Carlo,P(mujer),0.562819771564467,,,,,,,,Proporción observada en la S1
+Potencia Welch,cohorte n = 50 (%),8.540000000000001,,,,0.2794760097038742,error Monte Carlo (R = 10.000),,requiere cautela,Bajo el supuesto binomial negativa
+Potencia Welch,cohorte n = 100 (%),16.45,,,,0.37072867436981455,error Monte Carlo (R = 10.000),,requiere cautela,Bajo el supuesto binomial negativa
+Potencia Welch,cohorte n = 200 (%),31.009999999999998,,,,0.46253431224072444,error Monte Carlo (R = 10.000),,requiere cautela,Bajo el supuesto binomial negativa
+Potencia Welch,cohorte n = 500 (%),67.67999999999999,,,,0.4676983643332527,error Monte Carlo (R = 10.000),,requiere cautela,Bajo el supuesto binomial negativa
+Potencia Welch,cohorte n = 1000 (%),94.05,,,,0.23655813239032808,error Monte Carlo (R = 10.000),,robusta,Bajo el supuesto binomial negativa
